@@ -94,3 +94,21 @@ const characters = [
   "?",
   "/",
 ];
+
+let gnrtPassBtn = document.querySelector("#gen-pass");
+let firstPassField = document.querySelector(".text-field-first");
+let secondPassField = document.querySelector(".text-field-second");
+
+function genNewPass() {
+  // variables for passwords
+  let firstPassword = "";
+  let secondPassword = "";
+  // loop to generate a 15char pass
+  for (let i = 0; i < 15; i++) {
+    firstPassword += characters[Math.floor(Math.random() * characters.length)];
+    secondPassword += characters[Math.floor(Math.random() * characters.length)];
+  }
+  // display passwords
+  firstPassField.textContent = firstPassword;
+  secondPassField.textContent = firstPassword;
+}
