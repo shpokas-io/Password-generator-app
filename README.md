@@ -22,14 +22,16 @@ So to battle my simple password generation I came up with the idea to create my 
 
 Users should be able to:
 
--See hover effect over generate password button.
--When clicked generate two passwords
--Copy password to clipboard on click
+- See hover effect over generate password button.
+- When clicked generate two separate passwords
+- Copy password to clipboard on click"
+- Changes the text of passwordField field to "Copied !"
 
 ### Screenshot
 
-![](./images/pseudo%20code.jpg)
-![](./images/screenshot.png)
+<img src="./images/screenshot.png" width="1000">
+
+<img src="./images/pseudo code.jpg" width="500">
 
 ### Links
 
@@ -45,10 +47,14 @@ Users should be able to:
 
 ### What I learned
 
-In this project, so much new stuff was learned. One should also mention that this project was completed without any tutorials.
-Prior to this project, struggling with functions, arrays, and loops was common, but after this experience, it can be confidently said that those beasts were tamed, and there's now a solid understanding of how they work and when to use them.
+In this project, so much new stuff was learned.  
+One should also mention that this project was completed without any tutorials.  
+Prior to this project, struggling with functions, arrays, and loops was common, but after this experience, it can be confidently said that those beasts were tamed, and there's now a solid understanding of how they work and when to use them.  
 Additionally, all the code was initially written as pseudo-code in a notebook, where the logic was laid out before coding, which helped immensely in figuring out what to use and where.
 
 ### Continued development
 
-My main focus for next projects is to understand more how DOM interacts with html file,
+- Add slider for how long passwords should be
+- Add togle on/off for special characters and symbols
+
+<img src="./images/pseudo code.jpg" width="300">
