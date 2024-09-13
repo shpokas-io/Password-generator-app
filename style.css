@@ -1,0 +1,33 @@
+:root {
+  /* COLORS  main*/
+
+  --clr-m-bckg-dark: #111827;
+  --clr-m-appbckg-medium: #1F2937;
+  --clr-m-appbckg-lighter: #374151;
+
+  /* COLORS secondary */
+  --clr-s-green: #10B981;
+
+  /* FONT PARAMETERS */
+
+  /* SIZE */
+  --fnt-size-big: 2.5rem;
+  --fnt-size-rglr: 1.25rem;
+  --fnt-size-btn: 1rem;
+  /* FONT WEIGHT */
+  --fnt-wght-extra-bold: 800;
+  --fnt-wght-medium: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  background-color: var(--clr-m-bckg-dark);
+}
+
+
+/* Txt parameter */
