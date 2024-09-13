@@ -14,8 +14,8 @@ WORK IN PROGRESS
 
 ## Overview
 
-In our day and age, it is crucial to have a strong password.
-And I have a BIG PROBLEM thinking of secure passwords that are not as basic as helloWord123, or sunshineKiller6969, those passwords of mine are long in the past (or not :D).
+In our day and age, it is crucial to have a strong password.  
+And I have a BIG PROBLEM thinking of secure passwords that are not as basic as helloWord123, or sunshineKiller6969, those passwords of mine are long in the past (or not :D).  
 So to battle my simple password generation I came up with the idea to create my own password generator.
 
 ### The challenge
@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Password generator LIVE](https://newsletter-sign-up-page-with-error.netlify.app)
+- Live Site URL: [Password generator LIVE](https://passwordgeneratorappv1.netlify.app)
 
 ## My process
 
@@ -50,11 +50,10 @@ Users should be able to:
 In this project, so much new stuff was learned.  
 One should also mention that this project was completed without any tutorials.  
 Prior to this project, struggling with functions, arrays, and loops was common, but after this experience, it can be confidently said that those beasts were tamed, and there's now a solid understanding of how they work and when to use them.  
-Additionally, all the code was initially written as pseudo-code in a notebook, where the logic was laid out before coding, which helped immensely in figuring out what to use and where.
+Additionally, all the code was initially written as pseudo-code in a notebook, where the logic was laid out before coding, which helped immensely in figuring out what to use and where.  
+Also big mention is that i`ve used git branches to simulate generating new features.
 
 ### Continued development
 
-- Add slider for how long passwords should be
-- Add togle on/off for special characters and symbols
-
-<img src="./images/pseudo code.jpg" width="300">
+- Add slider for how long passwords should be.
+- Add togle on/off for special characters and symbols.
