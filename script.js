@@ -98,6 +98,7 @@ const characters = [
 let gnrtPassBtn = document.querySelector("#gen-pass");
 let firstPassField = document.querySelector(".text-field-first");
 let secondPassField = document.querySelector(".text-field-second");
+let whenClicked = document.querySelector(".when-clicked");
 
 function genNewPass() {
   // variables for passwords
@@ -116,11 +117,17 @@ function genNewPass() {
 //copy on click functionality
 
 firstPassField.addEventListener(`click`, function () {
-  const textToCopy = this.innerText;
+  const originalText = this.innerText;
+  const textToCopy = originalText;
+
   navigator.clipboard
     .writeText(textToCopy)
     .then(() => {
-      alert(`Text copied to clipboard`);
+      this.innerText = "Copied!";
+
+      setTimeout(() => {
+        this.innerText = originalText;
+      }, 1000);
     })
     .catch((err) => {
       console.log(`Failed to copy text: `, err);
@@ -128,11 +135,17 @@ firstPassField.addEventListener(`click`, function () {
 });
 
 secondPassField.addEventListener(`click`, function () {
-  const textToCopy = this.innerText;
+  const originalText = this.innerText;
+  const textToCopy = originalText;
+
   navigator.clipboard
     .writeText(textToCopy)
     .then(() => {
-      alert(`Text copied to clipboard`);
+      this.innerText = "Copied!";
+
+      setTimeout(() => {
+        this.innerText = originalText;
+      }, 1000);
     })
     .catch((err) => {
       console.log(`Failed to copy text: `, err);
