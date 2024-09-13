@@ -14,38 +14,40 @@ WORK IN PROGRESS
 
 ## Overview
 
+In our day and age, it is crucial to have a strong password.
+And I have a BIG PROBLEM thinking of secure passwords that are not as basic as helloWord123, or sunshineKiller6969, those passwords of mine are long in the past (or not :D).
+So to battle my simple password generation I came up with the idea to create my own password generator.
+
 ### The challenge
 
 Users should be able to:
 
-- Add their email and submit the form
-- See a success message with their email after successfully submitting the form
-- See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+-See hover effect over generate password button.
+-When clicked generate two passwords
+-Copy password to clipboard on click
 
 ### Screenshot
 
-![](./design/desktop-design.jpg)
+![](./images/pseudo%20code.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Live Site URL: [Newsletter-sign-up-LIVE](https://newsletter-sign-up-page-with-error.netlify.app)
+- Live Site URL: [Password generator LIVE](https://newsletter-sign-up-page-with-error.netlify.app)
 
 ## My process
 
 ### Built with
 
-- HTML5
-- CSS custom properties
-- Flexbox
-- Vanilla JavaScript
+- HTML5 Semantic
+- CSS
+- JavaScript
 
 ### What I learned
 
-In this project my main goal was implement JavaScript logic and not semantic html, i simply rushed thrue that, but actually i think i still did a pretty decent job on semantic perspective :D Tell me more about it if you can !
+In this project, so much new stuff was learned. One should also mention that this project was completed without any tutorials.
+Prior to this project, struggling with functions, arrays, and loops was common, but after this experience, it can be confidently said that those beasts were tamed, and there's now a solid understanding of how they work and when to use them.
+Additionally, all the code was initially written as pseudo-code in a notebook, where the logic was laid out before coding, which helped immensely in figuring out what to use and where.
 
 ### Continued development
 
