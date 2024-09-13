@@ -7,7 +7,8 @@
 
   /* COLORS secondary */
   --clr-s-green: #10B981;
-
+  --clr-btn: #4ADF86;
+  --clr-txt-grayish: #D5D4D8;
   /* FONT PARAMETERS */
 
   /* SIZE */
@@ -19,6 +20,7 @@
   --fnt-wght-medium: 600;
 }
 
+/* MAIN */
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +29,74 @@
 body {
   font-weight: 400;
   background-color: var(--clr-m-bckg-dark);
+  box-sizing: border-box;
+  /* display: flex; */
 }
 
 
+
+.main-container {
+  background-color: var(--clr-m-appbckg-medium);
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px;
+  max-width: 550px;
+  max-height: 550px;
+  margin: 20% auto;
+}
+
+.main-container hr {
+  margin-bottom: 30px;
+}
+
+
+
+/* ASSETS */
+
+#gen-pass {
+  font-size: var(--fnt-size-btn);
+  font-weight: var(--fnt-wght-medium);
+  color: white;
+  background-color: var(--clr-btn);
+  padding: 10px;
+  border-radius: 6px;
+  border-style: none;
+  width: 11.93rem;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.password-field {
+  background-color: var(--clr-m-appbckg-lighter);
+  width: 13.18rem;
+  height: 2.43rem;
+  border-radius: 6px;
+}
+
+.pass-field-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
 /* Txt parameter */
+
+h1 {
+  color: white;
+  font-size: var(--fnt-size-big);
+  font-weight: var(--fnt-wght-extra-bold);
+  margin-bottom: 10px;
+}
+
+#green-clr {
+  color: var(--clr-s-green);
+}
+
+p {
+  color: var(--clr-txt-grayish);
+  font-size: var(--fnt-size-rglr);
+  margin-bottom: 50px;
+
+}
